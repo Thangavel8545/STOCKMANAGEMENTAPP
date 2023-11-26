@@ -1,0 +1,99 @@
+.about-container {
+    background-color:white; /* Light gray background */
+    padding: 20px;
+  }
+  
+  /* Style individual sections within the About page */
+  .about-section {
+    background-color:bisque; /* White background for sections */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style headings */
+  .about-section h1 {
+    color: #363333; /* Dark gray heading text color */
+  }
+  
+  /* Style paragraphs */
+  .about-section p {
+    color: #e0b9b9; /* Gray paragraph text color */
+    line-height: 1.5;
+  }
+  
+  /* Style the "Key Features" list */
+  .about-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-section ul li {
+    margin-bottom: 10px;
+    padding-left: 20px; /* Add some space before list items */
+    position: relative;
+  }
+  
+  /* Style the bullet points in "Key Features" */
+  .about-section ul li::before {
+    content: '\2022'; /* Bullet character */
+    color: #ff6600; /* Orange bullet color */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Style links in paragraphs */
+  .about-section a {
+    color: #0078d4; /* Blue link color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .about-section a:hover {
+    color: #004b87; /* Darker blue on hover */
+  }
+  
+  /* Style the background color of the header */
+  .header {
+    background-color: #0078d4; /* Blue header background color */
+    color: #ffffff; /* White text color for header content */
+    padding: 10px 0;
+  }
+  
+  /* Style the navigation menu links */
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu-list li {
+    font-weight: bold;
+  }
+  
+  .menu-list a {
+    color: #ffffff; /* White menu link color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .menu-list a:hover {
+    color: #bcacac; /* Lighter gray on hover */
+  }
+  
+  /* Style user account details */
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-info .user-name {
+    font-weight: bold;
+  }

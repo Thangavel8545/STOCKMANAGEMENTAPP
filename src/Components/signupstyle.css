@@ -1,0 +1,74 @@
+/* Background color */
+body {
+  background-color: linear-gradient(to right, #000000, #000080);
+}
+
+/* Animation */
+@keyframes slideInDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Sign up form */
+#signup {
+  animation: slideInDown 1s ease-in;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Sign up form header */
+#signup h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Sign up form inputs */
+#signup input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Sign up form button */
+#signup button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #000080;
+  color: #fff;
+}
+
+/* Sign up form tabs */
+.sigtb {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sigtb a {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: #000;
+}
+
+.sigtb a:hover {
+  background-color: #000;
+  color: #fff;
+}
